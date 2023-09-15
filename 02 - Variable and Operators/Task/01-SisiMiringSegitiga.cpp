@@ -8,6 +8,7 @@
 #include <iostream>
 #include <map>
 #include <string>
+#include <limits>
 #include <math.h>
 
 using namespace std;
@@ -39,6 +40,12 @@ int main()
                 cout << "Mohon masukan angka lebih dari 0!" << endl;
 
             cout << "Nilai Sisi " << i->first << " : ", cin >> segitiga[i->first];
+            if (cin.fail())
+            {
+                cin.clear();
+                cin.ignore(numeric_limits<streamsize>::max(), '\n');
+            }
+
             counter++;
         } while (!isdigit(segitiga[i->first]) && segitiga[i->first] <= 0);
     }
@@ -49,8 +56,8 @@ int main()
     cout << endl
          << "\t=> Result (Sisi Miring)" << endl;
     cout << "+-----------------------------------------------+" << endl;
-    cout << "\tSisi Tinggi\t: " << segitiga["Tinggi"] << endl;
     cout << "\tSisi Alas\t: " << segitiga["Alas"] << endl;
+    cout << "\tSisi Tinggi\t: " << segitiga["Tinggi"] << endl;
     cout << "\tSisi Miring\t: " << miring << endl;
     cout << "+-----------------------------------------------+" << endl;
     cout << "Jadi Sisi Miring dari segitiga adalah " << miring << endl
