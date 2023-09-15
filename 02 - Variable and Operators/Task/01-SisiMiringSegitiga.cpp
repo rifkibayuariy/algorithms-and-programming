@@ -7,7 +7,6 @@
 
 #include <iostream>
 #include <map>
-#include <string>
 #include <limits>
 #include <math.h>
 
@@ -17,7 +16,7 @@ int main()
 {
     // Variable Declation
     float miring;
-    map<string, int> segitiga{{"Alas", 0}, {"Tinggi", 0}};
+    map<string, float> segitiga{{"Alas", 0}, {"Tinggi", 0}};
 
     // Display information about program
     cout << "+------------------------------------------------+" << endl;
@@ -30,7 +29,7 @@ int main()
          << endl;
 
     // Console Input Alas and Tinggi
-    map<string, int>::iterator i;
+    map<string, float>::iterator i;
     for (i = segitiga.begin(); i != segitiga.end(); i++)
     {
         int counter = 0;
