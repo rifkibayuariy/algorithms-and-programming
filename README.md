@@ -1,1 +1,2 @@
-# algorithms-and-programming
+# Algorithms and Programming
+by Rifki Bayu Ariyanto
