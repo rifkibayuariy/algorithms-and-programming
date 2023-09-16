@@ -3,6 +3,9 @@
  * Author: Rifki Bayu Ariyanto
  *
  * Program rumus pythagoras yang bisa digunakan untuk mencari salah satu nilai sisi segitiga berdasarkan pilihan sisi yang dipilih.
+ *
+ * buka repository github untuk melihat beberapa versi pengerjaan
+ * https://github.com/rifkibayuariy/algorithms-and-programming/tree/main/02%20-%20Variable%20and%20Operators/Task
  */
 
 #include <iostream>
