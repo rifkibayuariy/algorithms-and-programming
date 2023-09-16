@@ -1,7 +1,7 @@
 # Tugas Mencari Nilai Sisi Miring Segita
 by: Rifki Bayu Ariyanto **23.11.5702**
 <br><br><br>
-Terdapat 3 variasi dalam pengerjaan:
+Terdapat 3 versi dalam pengerjaan:
 ### [00-SimpleSisiMiringSegitiga](https://github.com/rifkibayuariy/algorithms-and-programming/blob/main/02%20-%20Variable%20and%20Operators/Task/00-SimpleSisiMiringSegitiga.cpp)
 ---
 Tugas pada file ini sesuai dengan materi pembelajaran pada mata kuliah.
