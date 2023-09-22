@@ -4,7 +4,7 @@
  *
  * Membuat table "Daftar Belanjaan" sesuai dengan tugas, akan tetapi list datanya disimpan kedalam sebuah tempat
  * (dalam pengertianku 'array' karena terbiasa menggunakan biasa lain). Sehingga nantinya tidak usah membuat format
- * 'cout' satu-satu. Nantinya akan memudahkan jika datanya banyak.
+ * 'cout' satu-satu, yang nantinya akan memudahkan jika datanya banyak.
  *
  */
 
@@ -30,7 +30,7 @@ int main()
     cout << "\t|" << setw(5) << "NO |" << setw(21) << "Item |" << setw(7) << "Jmlh |" << endl;
     cout << "\t+----+--------------------+------+" << endl;
 
-    // loop for show data from 'array'
+    // loop for show data from 'array' shopping_list
     for (int i = 0; i < shopping_list.size(); i++)
     {
         string no = (i < 9) ? "0" + to_string(i + 1) : to_string(i + 1);
