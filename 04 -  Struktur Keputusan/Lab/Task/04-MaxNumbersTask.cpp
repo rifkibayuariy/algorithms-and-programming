@@ -4,6 +4,9 @@
  *
  * Find max numbers from input
  *
+ * jika tidak boleh menggunakan for maka bisa mengunjungi versi pengerjaan tugas satunya (04-MaxNumbersTaskSimple)
+ * https://github.com/rifkibayuariy/algorithms-and-programming/blob/main/04%20-%20%20Struktur%20Keputusan/Lab/Task/04-MaxNumbersTaskSimple.cpp
+ *
  */
 
 #include <iostream>

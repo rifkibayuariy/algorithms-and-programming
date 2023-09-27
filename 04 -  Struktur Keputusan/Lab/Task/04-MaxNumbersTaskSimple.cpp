@@ -16,7 +16,16 @@ int main()
 
     cout << "Input Numbers : ", cin >> a >> b >> c >> d;
 
-        cout << "Max Number : " << max_number << endl;
+    if (a > b && b > c && c > d)
+        max_number = a;
+    else if (b > a && b > c && b > d)
+        max_number = b;
+    else if (c > a && c > b && c > d)
+        max_number = c;
+    else if (d > a && d > b && d > c)
+        max_number = d;
+
+    cout << "Max Number : " << max_number << endl;
 
     system("pause");
 
