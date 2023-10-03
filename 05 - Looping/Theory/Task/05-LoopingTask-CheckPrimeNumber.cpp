@@ -2,6 +2,8 @@
 * Check Prime Number
 * Author: Rifki Bayu Ariyanto
 *
+* Github link
+* (https://github.com/rifkibayuariy/algorithms-and-programming/blob/main/05%20-%20Looping/Theory/Task/05-LoopingTask-CheckPrimeNumber.cpp)
 */
 
 #include <iostream>
