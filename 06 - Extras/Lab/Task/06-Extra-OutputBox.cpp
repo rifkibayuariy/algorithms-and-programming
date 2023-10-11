@@ -10,7 +10,6 @@
 using namespace std;
 
 int main() {
-
     string text, horizontal_line;
 
     cout << "input: ", getline(cin, text);
@@ -22,6 +21,5 @@ int main() {
     cout << char(192) << horizontal_line << char(217) << endl;
 
     cout << endl, system("pause");
-
     return 0;
 }
