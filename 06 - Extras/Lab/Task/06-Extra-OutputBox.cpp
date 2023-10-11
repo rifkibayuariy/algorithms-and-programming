@@ -1,5 +1,5 @@
 /*
-* Extra - Ouput Box
+* Extra - Output Box
 * Author: Rifki Bayu Ariyanto
 *
 */
